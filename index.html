@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name | PhD Candidate in Your Field</title>
+  <meta name="description" content="Academic website of Your Name, PhD candidate in Your Field at Your University.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="layout">
+
+  <!-- ============ SIDEBAR ============ -->
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+      <!-- Put your photo at files/photo.jpg. If it is missing, initials show instead. -->
+      <div class="portrait" data-initials="YN">
+        <img src="files/photo.jpg" alt="Portrait of Your Name" onerror="this.remove()">
+      </div>
+
+      <h1 class="name">Your Name</h1>
+      <p class="role">PhD Candidate, Your Field<br>Your University</p>
+
+      <nav aria-label="Sections">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#talks">Presentations</a></li>
+          <li><a href="#teaching">Teaching</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#awards">Awards &amp; CV</a></li>
+        </ul>
+      </nav>
+
+      <ul class="contact">
+        <li><a href="mailto:you@university.edu">you@university.edu</a></li>
+        <li><a href="files/CV.pdf">Download CV (PDF)</a></li>
+        <li><a href="https://scholar.google.com/">Google Scholar</a></li>
+        <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+      </ul>
+
+      <p class="address">Room 000, Your Building<br>City, State 00000</p>
+    </div>
+  </aside>
+
+  <!-- ============ MAIN ============ -->
+  <main id="main">
+
+    <!-- About -->
+    <section id="about">
+      <h2>About</h2>
+      <p class="lead">
+        I am a PhD candidate in [your field] at [your university]. My research
+        examines [topic one] and [topic two], with a particular interest in
+        [method or question].
+      </p>
+      <p>
+        Write two or three more sentences here: what you study, why it matters,
+        and what you plan to work on next. Mention your advisor(s) and your
+        expected graduation date if you are on the job market.
+      </p>
+      <ul class="tags">
+        <li>Research area one</li>
+        <li>Research area two</li>
+        <li>Research area three</li>
+      </ul>
+    </section>
+
+    <!-- Research -->
+    <section id="research">
+      <h2>Research</h2>
+
+      <h3>Published papers</h3>
+      <article class="paper">
+        <h4>Title of Your Published Paper</h4>
+        <p class="meta">with <strong>Coauthor One</strong> and <strong>Coauthor Two</strong></p>
+        <p class="venue">Journal Name, 2025</p>
+        <p class="links"><a href="#">Paper</a> <a href="#">SSRN</a> <a href="#">Data &amp; code</a></p>
+        <details>
+          <summary>Abstract</summary>
+          <p>Paste your abstract here. Keep it to a single paragraph.</p>
+        </details>
+      </article>
+
+      <h3>Working papers</h3>
+      <article class="paper">
+        <h4>Title of Your Job Market Paper</h4>
+        <p class="meta">Job market paper</p>
+        <p class="links"><a href="#">SSRN</a> <a href="#">PDF</a></p>
+        <details>
+          <summary>Abstract</summary>
+          <p>Paste your abstract here.</p>
+        </details>
+      </article>
+
+      <article class="paper">
+        <h4>Title of Another Working Paper</h4>
+        <p class="meta">with <strong>Coauthor Name</strong></p>
+        <p class="links"><a href="#">PDF</a></p>
+        <details>
+          <summary>Abstract</summary>
+          <p>Paste your abstract here.</p>
+        </details>
+      </article>
+
+      <h3>Work in progress</h3>
+      <article class="paper">
+        <h4>Title of a Project in Progress</h4>
+        <p class="meta">with <strong>Coauthor Name</strong></p>
+      </article>
+    </section>
+
+    <!-- Presentations -->
+    <section id="talks">
+      <h2>Presentations</h2>
+      <p class="note">An asterisk (*) marks talks given by a coauthor.</p>
+
+      <div class="year-block">
+        <h3>2026</h3>
+        <ul>
+          <li>Conference or seminar name</li>
+          <li>University name*</li>
+        </ul>
+      </div>
+      <div class="year-block">
+        <h3>2025</h3>
+        <ul>
+          <li>Conference or seminar name</li>
+          <li>Another venue</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Teaching -->
+    <section id="teaching">
+      <h2>Teaching</h2>
+
+      <div class="teach-block">
+        <h3>Your University</h3>
+        <ul class="plain">
+          <li><span class="tag">Instructor</span> COURSE 101: Course title</li>
+          <li><span class="tag">TA</span> COURSE 201: Course title</li>
+        </ul>
+      </div>
+
+      <p class="note">Optional: add teaching evaluations or a link to your teaching statement.</p>
+    </section>
+
+    <!-- Resources -->
+    <section id="resources">
+      <h2>Resources</h2>
+      <p class="note">
+        Link to things you found useful: textbooks, writing guides, datasets, code.
+        Only link out and credit the authors; do not copy their text.
+      </p>
+
+      <h3>Research tools</h3>
+      <ul class="resource-list">
+        <li>
+          <a href="https://example.com">Resource title</a>
+          <span>One sentence in your own words on why it is useful.</span>
+        </li>
+        <li>
+          <a href="https://example.com">Another resource</a>
+          <span>One sentence in your own words.</span>
+        </li>
+      </ul>
+
+      <h3>Service</h3>
+      <ul class="plain">
+        <li><strong>Referee:</strong> Journal One, Journal Two</li>
+        <li><strong>Organizer:</strong> Name of seminar or workshop you run</li>
+      </ul>
+    </section>
+
+    <!-- Awards & CV -->
+    <section id="awards">
+      <h2>Awards &amp; CV</h2>
+      <dl class="awards">
+        <div><dt>2025</dt><dd>Name of Grant or Fellowship</dd></div>
+        <div><dt>2024</dt><dd>Name of Scholarship</dd></div>
+        <div><dt>2022–2027</dt><dd>Name of Funding Package</dd></div>
+      </dl>
+      <p><a class="button" href="files/CV.pdf">Download full CV</a></p>
+    </section>
+
+    <footer>
+      <p>© <span id="year">2026</span> Your Name. Last updated <span id="updated"></span>.</p>
+    </footer>
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
